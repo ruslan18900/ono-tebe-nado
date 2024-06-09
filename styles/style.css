@@ -42,15 +42,22 @@
 }
 
 .header__logo {
+  cursor: pointer;
+  text-decoration: none;
   display: flex;
   justify-self: center;
   align-self: center;
   margin-right: 87px;
 }
 
+.header__logo-link {
+  display: inline-block;
+}
+
 .header__logo-image {
+  display: inline-block;
   width: 136px;
-  height: 104px;
+  height: auto;
 }
 
 .address {
